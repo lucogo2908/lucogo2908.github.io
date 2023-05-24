@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Buy this domain</title>
+  </head>
+  
+  <style>
+    * {
+      font-family: "Sofia", sans-serif;
+      font-size: 32pt;
+    }
+    
+    .c > div {
+      margin-left: 10px;
+    }
+    
+    .c > div:nth-child(1) {
+      outline: none;
+      border: none;
+      border-radius: 10px;
+      background-color: white;
+      color: #4361EE;
+      cursor: pointer;
+    }
+    
+    .c > div:nth-child(1):hover {
+      text-decoration: underline;
+      opacity: 0.5;
+    }
+    
+    .c {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 350px;
+      text-align: left;
+    }
+  </style>
+  
+  <body>
+    <div class="c">
+      <div>Buy</div>
+      <div>this</div>
+      <div>domain</div>
+      <div>at</div>
+      <div>Auctions</div>
+      <div>of</div>
+      <div>GoDaddy</div>
+    </div>
+  </body>
+  
+  <script>
+  document.querySelector(".c > div:nth-child(1)").addEventListener("click", function() { window.location.href = 'https://pe.auctions.godaddy.com/?isc=pedomgon1&countryview=1&currencyType=PEN&cdtl=c_18445903341.g_143400297802.k_kwd-40956828043.a_624616340375.d_c.ctv_g&bnb=b&gclid=CjwKCAjw67ajBhAVEiwA2g_jEPj-OuG9elPNsJvipeGIgei-kEsRhSQN0xiKDmJ62eQPkr0_atVRpRoC0hgQAvD_BwE' })
+  </script>
+</html>
